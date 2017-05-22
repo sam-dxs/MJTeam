@@ -1,0 +1,24 @@
+<!--pages/member/member.wxml-->
+<view class="members">
+<view class="list-content">
+  <text class="list-name">成员列表</text>
+  <image class="list-icon" src="/images/icon-down.png"></image>
+</view>
+  
+    <view class="membser-list" wx:for="{{array}}">
+      <navigator url="{{item.url}}">
+         <view class="member-photo">
+            <view class="shadow"></view>
+            <image src="{{item.memberPhoto}}"></image>
+        </view>
+        <view class="member-infor">
+            <text class="member-name">{{item.memberName}}</text>
+            <view  class="member-post">
+              <text>{{item.memberPost}}</text>
+            </view> 
+        </view>
+      </navigator>
+       
+    </view>
+</view>
+

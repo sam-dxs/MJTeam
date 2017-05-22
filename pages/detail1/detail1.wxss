@@ -1,0 +1,64 @@
+/* pages/detail1/detail1.wxss */
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240rpx;
+  height: 240rpx;
+  border-radius:50%;
+  border: 4rpx solid rgba(255, 255, 255, .2) ;
+}
+.person image{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 50px;
+  border: 4rpx solid  rgba(255, 255, 255, .9);
+
+}
+.personal-name {
+  font-size: 60rpx;
+  color: #fff;
+}
+.personal-post {
+  font-size: 26rpx;
+}
+.person-top {
+  padding: 80rpx 0;
+  background: #b3d4db;
+  background-image:linear-gradient(-315deg,#405f80,#b3d4db);
+}
+.person-under {
+  font-family: "Microsoft YaHei";
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+
+}
+.intro text {
+  display: block;
+  width: 50%;
+  height: 120rpx;
+  background: #405f80;
+  text-align: center;
+  color: #fff;
+  line-height: 120rpx;
+}
+.intro text.intro-label{
+  background: #b3d4db;
+}
+.personal-infor {
+  padding: 14rpx 0 24rpx;
+  margin:0 30rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.personal-infor:last-of-type{
+  border: none;
+}
+.label {
+  color:  #405f80;
+  font-size: 30rpx;
+}
+.infor-detail {
+  margin-top: 10rpx;
+}

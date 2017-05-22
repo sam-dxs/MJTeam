@@ -1,0 +1,71 @@
+/* pages/member/member.wxss */
+.members {
+  font-family: "Microsoft YaHei";
+}
+.list-content {
+ padding:20rpx 0 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #b3d4db;
+  color: #405f80;
+}
+.list-icon {
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+navigator {
+  padding: 20rpx 30rpx;
+  width: 100%;
+  height: 100%;
+   display: flex;
+  flex-direction: row;
+}
+.membser-list {
+  border-bottom: 1px solid #d9dad5;
+  border-top:1px solid #fff; 
+}
+.member-photo {
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+}
+.shadow {
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  box-shadow:rgba(0, 0, 0, 0.2)0px 1px 10px 0px inset;
+}
+.member-photo image {
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 5px; 
+}
+.member-infor {
+  padding-top: 10rpx;
+  margin-left: 30rpx;
+} 
+.member-name {
+  padding-top: 10rpx; 
+  display:inline-block;
+
+}
+.member-post {
+  padding: 10rpx 30rpx;
+  margin:-20rpx 0 0 180rpx;
+  /*border:4rpx #405f80 solid;*/
+  border-radius:50rpx; 
+  background: #b3d4db;
+  font-size: 24rpx;
+  color:#fff;
+}
+page {
+  background:#f5f6f1;
+}
