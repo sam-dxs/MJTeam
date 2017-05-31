@@ -5,8 +5,8 @@
   <image class="list-icon" src="/images/icon-down.png"></image>
 </view>
   
-    <view class="membser-list" wx:for="{{array}}">
-      <navigator url="{{item.url}}">
+    <view class="membser-list" wx:for="{{array}}" bindtap="bindViewTap">
+      <navigator url="../detail/detail?index={{index}}">
          <view class="member-photo">
             <view class="shadow"></view>
             <image src="{{item.memberPhoto}}"></image>

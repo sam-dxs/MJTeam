@@ -1,0 +1,329 @@
+<!--pages/detail1/detail1.wxml-->
+<view class="detail-content">
+  <view class="content-item" hidden="{{index!=member0.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member0.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member0.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member0.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member0.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member0.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member1.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member1.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member1.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member1.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member1.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member1.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member2.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member2.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member2.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member2.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member2.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member2.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member3.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member3.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member3.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member3.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member3.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member3.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member4.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member4.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member4.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member4.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member4.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member4.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member5.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member5.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member5.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member5.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member5.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member5.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member6.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member6.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member6.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member6.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member6.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member6.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member7.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member7.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member7.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member7.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member7.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member7.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member8.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member8.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member8.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member8.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member8.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member8.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member9.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member9.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member9.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member9.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member9.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member9.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member10.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member10.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member10.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member10.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member10.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member10.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+  <view class="content-item" hidden="{{index!=member11.Index}}">
+    <view class="container person-top">
+        <view class="person">
+          <image src="{{member11.url}}"></image>
+        </view>
+        <view class="personal-name">
+          <text>{{member11.name}}</text>
+        </view>
+        <view class="personal-post">
+          <text>{{member11.post}}</text>
+        </view>
+    </view>
+    <view class="person-under">
+      <view class="intro">
+        <text class="intro-label">个人描述：</text>
+        <text>{{member11.describe}}</text>
+      </view>
+      <view class="personal-infor" wx:for="{{member11.array}}">
+          <view class="label">
+            <text>{{item.label}}</text>
+          </view>
+          <view class="infor-detail">
+            <text>{{item.detail}}</text>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+

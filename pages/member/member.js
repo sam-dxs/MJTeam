@@ -1,11 +1,10 @@
-//logs.js
+//member.js
 Page({
   data: {
     array:[{
       memberPhoto:'/images/sam.jpg',
       memberName:'Sam',
       memberPost:'技术总监',
-      url:'../detail1/detail1'
     },{
         memberPhoto: '/images/lee.jpg',
         memberName: 'Lee',
@@ -29,11 +28,11 @@ Page({
     },{
         memberPhoto: '/images/default.jpg',
         memberName: 'Eric',
-        memberPost: '.net开发实习工程师'
+        memberPost: '.net开发实习生'
     },{
         memberPhoto: '/images/default.jpg',
         memberName: 'Jason',
-        memberPost: '.net开发实习工程师'
+        memberPost: '.net开发实习生'
     },{
         memberPhoto: '/images/default.jpg',
         memberName: 'Devin',

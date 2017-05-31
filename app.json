@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/member/member",
-    "pages/detail1/detail1"
+    "pages/detail/detail"
     
   ],
   "window":{
